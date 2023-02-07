@@ -9,15 +9,7 @@
 //             pivot
 //     - 1+7+3 =  5 + 6 = 11 => 6 is the pivot number and 3 is the pivot index
 //  Sovle :
-//     - Dual pointer :
-//          - [2,1,0,1,2]
-//             ^       ^
-// leftSum  >  2       2 < rightSum
-// leftIndex > 0       4 < rightIndex
-//           - [2,1,0,1,2]
-//                ^   ^
-// leftSum  >  3       3 < rightSum
-// leftIndex > 1       3 < rightIndex
+// Dual pointer will not work for this
 // => Condition =
 //Keyword :  right = total - left
 function findPivotIndex(nums) {
