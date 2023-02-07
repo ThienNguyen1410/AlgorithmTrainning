@@ -1,3 +1,5 @@
+// Level : Medium
+// Type : Binary Search
 // - Given
 //     - Ascending array, unique elements (can be negative or positive)
 //     - A K integer ⇒ K is a index of missing number
